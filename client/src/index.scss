@@ -1,0 +1,286 @@
+
+// .ce-chat-form-button {
+// 	border: none !important;
+// 	border-radius: 33px !important;
+// 	color: $primary-600 !important;
+// 	padding: 4px 15px !important;
+// 	top: 15px !important;
+//   }
+  
+//   .ce-chat-list {
+// 	background-color: $primary-600 !important;
+//   }
+  
+//   .ce-chat-card {
+// 	border-radius: 0px !important;
+// 	padding: 0px 20px !important;
+//   }
+  
+//   .ce-chat-card-title {
+// 	top: 16px !important;
+// 	font-family: "Rubik" !important;
+//   }
+  
+//   .ce-chat-card-subtitle {
+// 	bottom: 16px !important;
+// 	color: $tertiary-100 !important;
+// 	font-family: "Rubik" !important;
+// 	font-weight: 300 !important;
+//   }
+  
+//   .ce-chat-card-time-stamp {
+// 	bottom: 16px !important;
+// 	color: $gray-300 !important;
+// 	font-family: "Rubik" !important;
+// 	right: 16px !important;
+//   }
+  
+//   .ce-active-chat-card {
+// 	background-color: $secondary-800 !important;
+// 	color: $tertiary-100 !important;
+//   }
+  
+//   .ce-chat-card-unread {
+// 	background-color: $quaternary-500 !important;
+// 	right: 16px !important;
+//   }
+  
+//   .ce-chat-card-avatar {
+// 	left: 14px !important;
+//   }
+  
+//   /* Chat Feed */
+//   .ce-chat-feed-column {
+// 	overflow-y: hidden !important;
+// 	border: none !important;
+//   }
+  
+//   .ce-chat-feed {
+// 	background-color: $primary-700 !important;
+//   }
+  
+//   .chat-header {
+// 	display: flex;
+// 	align-items: center;
+// 	justify-content: space-between;
+// 	padding: 10px 30px !important;
+// 	border-bottom: 1px solid $primary-400 !important;
+//   }
+  
+//   .ce-chat-header-title {
+// 	font-family: "Rubik" !important;
+// 	left: 68px !important;
+//   }
+  
+//   .ce-chat-header-subtitle {
+// 	font-family: "Rubik" !important;
+//   }
+  
+//   .ce-chat-header {
+// 	background-color: $primary-700 !important;
+// 	color: $tertiary-50 !important;
+// 	border-bottom: 1px solid $primary-400 !important;
+// 	padding: 10px !important;
+//   }
+  
+//   .ce-avatar-dot {
+// 	background-color: $secondary-500 !important;
+// 	margin: 5px 0 !important;
+//   }
+  
+//   .ce-attachment-input {
+// 	bottom: 4px !important;
+// 	margin-left: 15px !important;
+//   }
+  
+//   #ce-send-message-button {
+// 	background-color: $secondary-300 !important;
+// 	padding: 3px 10px !important;
+// 	bottom: 5px !important;
+//   }
+  
+//   .ce-attachment-icon {
+// 	background-color: transparent !important;
+// 	border: none !important;
+//   }
+  
+//   .ce-message-list {
+// 	background-color: $primary-800 !important;
+// 	height: calc((100% - 100px) - 68px) !important;
+// 	border-bottom: 1px solid $primary-400 !important;
+//   }
+  
+//   .ce-message-list::-webkit-scrollbar-track {
+// 	background: $primary-800;
+//   }
+  
+//   .ce-message-list::-webkit-scrollbar-thumb {
+// 	background: $primary-800;
+//   }
+  
+//   .ce-message-list::-webkit-scrollbar-track:hover {
+// 	background: $primary-800;
+//   }
+  
+//   .ce-message-list-content {
+// 	padding: 20px !important;
+// 	overflow-y: hidden !important;
+//   }
+  
+//   .ce-message-date-text {
+// 	font-family: "Rubik" !important;
+// 	color: $gray-300 !important;
+// 	font-size: 12px !important;
+// 	margin: 10px 0 !important;
+//   }
+  
+//   .ce-message-form {
+// 	background-color: $primary-700 !important;
+// 	border: 1px solid $primary-400 !important;
+// 	border-radius: 5px !important;
+// 	margin: 20px !important;
+// 	width: calc(100% - 40px) !important;
+//   }
+  
+//   .ce-message-form-input {
+// 	background-color: $primary-700 !important;
+// 	color: $tertiary-50 !important;
+// 	font-family: "Rubik" !important;
+// 	border: none !important;
+//   }
+  
+//   .ce-my-message-body {
+// 	font-family: "Rubik" !important;
+// 	background-color: $secondary-500 !important;
+// 	color: $tertiary-50 !important;
+// 	border-radius: 8px !important;
+// 	font-size: 14px !important;
+//   }
+  
+//   .ce-their-message-body {
+// 	font-family: "Rubik" !important;
+// 	background-color: $gray-300 !important;
+// 	color: $tertiary-50 !important;
+// 	border-radius: 8px !important;
+// 	font-size: 14px !important;
+//   }
+  
+//   .ce-my-message-timestamp {
+// 	color: $tertiary-50 !important;
+// 	font-family: "Rubik" !important;
+//   }
+  
+//   .ce-their-message-timestamp {
+// 	color: $tertiary-50 !important;
+// 	font-family: "Rubik" !important;
+//   }
+  
+//   .ce-their-message-sender-username {
+// 	padding-left: 50px !important;
+// 	color: $tertiary-50 !important;
+// 	font-family: "Rubik" !important;
+//   }
+  
+//   /* Chat Settings */
+//   .ce-chat-settings-column {
+// 	background-color: $primary-500;
+// 	border-left: 1px solid $primary-400 !important;
+// 	overflow-y: hidden !important;
+//   }
+  
+//   .ce-chat-settings {
+// 	background-color: $primary-600 !important;
+//   }
+  
+//   .ce-chat-avatars {
+// 	height: calc(50px) !important;
+//   }
+  
+//   .ce-chat-avatars .ce-avatar {
+// 	width: 40px !important;
+// 	height: 40px !important;
+//   }
+  
+//   .ce-avatar {
+// 	background-color: $secondary-500 !important;
+//   }
+  
+//   .ce-avatar-status {
+// 	background-color: $secondary-800 !important;
+//   }
+  
+//   .ce-chat-settings-title {
+// 	font-family: "Rubik" !important;
+// 	padding: 20px 0 0 0 !important;
+// 	border-top: 1px solid $primary-400 !important;
+//   }
+  
+//   .ce-dropdown {
+// 	color: $tertiary-50 !important;
+// 	background-color: $primary-600 !important;
+// 	border-top: none !important;
+// 	font-family: "Rubik" !important;
+//   }
+  
+//   .ce-dropdown-icon {
+// 	bottom: 12px !important;
+//   }
+  
+//   .ce-dropdown-label {
+// 	padding: 30px 25px 10px 25px !important;
+// 	color: $gray-400 !important;
+// 	background-color: $primary-600 !important;
+// 	font-family: "Rubik" !important;
+// 	font-weight: 300 !important;
+// 	font-size: 14px !important;
+//   }
+  
+//   .ce-dropdown-children {
+// 	margin: 10px 0 !important;
+// 	padding: 0 13px !important;
+//   }
+  
+//   .ce-member-delete-button {
+// 	border-radius: 5px !important;
+// 	background-color: $primary-800 !important;
+// 	color: $primary-400 !important;
+// 	border: 1px solid $primary-400 !important;
+// 	top: 6px !important;
+//   }
+  
+//   .ce-autocomplete-input {
+// 	margin: 10px 0 !important;
+// 	background-color: $primary-800 !important;
+// 	color: $tertiary-50 !important;
+// 	font-family: "Rubik" !important;
+// 	border: 1px solid $primary-400 !important;
+// 	border-radius: 5px !important;
+//   }
+  
+//   .ce-danger-button {
+// 	border-radius: 5px !important;
+// 	background-color: $primary-800 !important;
+// 	color: $primary-400 !important;
+// 	border: 1px solid $primary-400 !important;
+//   }
+  
+//   #ce-settings-photos-dropdown .ce-dropdown-children {
+// 	padding: 0 25px !important;
+//   }
+  
+//   /* Scrollbar */
+//   ::-webkit-scrollbar {
+// 	width: 10px;
+//   }
+  
+//   ::-webkit-scrollbar-track {
+// 	background: $primary-700;
+//   }
+  
+//   ::-webkit-scrollbar-thumb {
+// 	background: $primary-700;
+//   }
+  
+//   ::-webkit-scrollbar-track:hover {
+// 	background: $primary-700;
+//   }
